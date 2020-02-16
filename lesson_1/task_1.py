@@ -12,8 +12,8 @@ num = num % 10
 
 ctg3 = num
 
-sum = ctg1 + ctg2 + ctg3
+sum_ = ctg1 + ctg2 + ctg3
 comp = ctg1 * ctg2 * ctg3
 
-print(f'sum = {sum}')
+print(f'sum = {sum_}')
 print(f'comp = {comp}')
