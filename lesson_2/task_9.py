@@ -23,7 +23,7 @@ def get_sum_el(num):
         return sum
 
 
-max = int(input("Введите числа (по окончании нажмите дважды ENTER)\n"))
+max_ = int(input("Введите числа (по окончании нажмите дважды ENTER)\n"))
 sum_max = get_sum_el(max)
 
 num = input('')
@@ -32,8 +32,8 @@ while num != '':
     sum_num = get_sum_el(num)
     if sum_num > sum_max:
         sum_max = sum_num
-        max = num
+        max_ = num
     num = input()
 
 
-print(f'Максимальная сумма {sum_max} у числа {max}')
+print(f'Максимальная сумма {sum_max} у числа {max_}')
